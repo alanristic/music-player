@@ -1,0 +1,13 @@
+{
+  "home": {
+    "listen": "Listen to Great Music!"
+  },
+  "song": {
+    "comment_count": "No Comments | 1 Comment | {count} Comments"
+  },
+  "register": {
+    "_comment": "// Don't hardcode the URL as it leads to XSS!",
+    "accept": "I accept Music's term of service {0}",
+    "tos": "Terms of Service"
+  }
+}
