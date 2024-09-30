@@ -9,7 +9,8 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 // https://vitejs.dev/config/
 export default defineConfig({
   test: {
-    globals: true // Global import for Test imports (no need to import them in each test file)
+    globals: true, // Global import for Test imports (no need to import them in each test file)
+    environment: 'jsdom' // Environment for testing
   },
   plugins: [
     vue(),
