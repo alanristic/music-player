@@ -11,6 +11,7 @@
         <button
           type="button"
           class="z-50 h-24 w-24 text-3xl bg-white text-black rounded-full focus:outline-none"
+          id="play-btn"
           @click.prevent="newSong(song)"
         >
           <i class="fas" :class="{ 'fa-play': !playing, 'fa-pause': playing }"></i>
